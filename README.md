@@ -23,7 +23,8 @@ the main python script is forked from https://github.com/windiboy/BUAAAutoUpdate
 - FORM_DATA is got from Step 2.
 ## Step 4
 - Open Action in your forked repository, and you should enable the workflow named *BUAAAutoUpdate Action Ver*.
-- The default configuration is scheduled to run the workflow at 16:26 (UTC +8:00) every day, and you can also run it manually in the Action page.
-- If you want to change the scheduled time, you can edit ./.github/workflows/main.yml at line 12.
+- The default configuration is scheduled to run the workflow at 16:26 (UTC +8:00) every day, and you can also run it manually as follow image in the Action page.
+![BUAAAutoUpdateAction.jpg](https://s2.loli.net/2022/07/06/upgEq81INAf7YyK.jpg)
+- If you want to change the scheduled time, you can edit file ./.github/workflows/main.yml at line 12.
 - If you don't know how to use cron, you can refer to [this page](https://docs.github.com/cn/actions/using-workflows/events-that-trigger-workflows#schedule).
 
