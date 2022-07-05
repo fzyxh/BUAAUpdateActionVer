@@ -7,10 +7,10 @@ import os
 import time
 
 ###########用户需要更改的部分###############
-your_name = os.environ[your_name]
-your_pwd = os.environ[your_pwd]
-wechat_key = os.environ[wechat_key]
-form_data = os.environ[form_data]
+your_name = os.environ['STUDENTID']
+your_pwd = os.environ['PASSWORD']
+wechat_key = os.environ['SERVER_SEC']
+form_data = os.environ['FORM_DATA']
 
 ###########用户需要更改的部分###############
 urllib3.disable_warnings()
