@@ -31,7 +31,7 @@ jobs:
       run: |
         python ./BUAAAutoUpdate.py
       env:
-        form_data: ${{ secrets.FORM_DATA }}
-        your_name: ${{ secrets.STUDENTID }}
-        your_pwd: ${{ secrets.PASSWORD }}
-        wechat_key: ${{ secrets.SERVER_SEC }}
+        FORM_DATA: ${{ secrets.FORM_DATA }}
+        STUDENTID: ${{ secrets.STUDENTID }}
+        PASSWORD: ${{ secrets.PASSWORD }}
+        SERVER_SEC: ${{ secrets.SERVER_SEC }}
